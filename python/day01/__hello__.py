@@ -21,6 +21,15 @@ print(dataIn)
 """
 expression = True
 
+#声明函数
+
+
+def dio():
+    return 5
+
+
+print(dio(5))
+
 if expression:
     print("1")
 elif expression:
