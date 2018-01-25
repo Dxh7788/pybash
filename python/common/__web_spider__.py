@@ -1,4 +1,4 @@
-from urllib import parse, request, response
+from urllib import parse, request
 
 url = 'http://www.server.com/login'
 user_agent = 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'
