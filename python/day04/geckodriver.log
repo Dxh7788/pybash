@@ -52,3 +52,14 @@ JavaScript error: https://sit.test.htouhui.com/site/themes/default/js/registAndL
 JavaScript error: https://sit.test.htouhui.com/site/themes/default/js/indexAd.processed.js, line 19: TypeError: data.data.defaultAdvertisingPopups is null
 Unable to read VR Path Registry from C:\Users\Htouhui\AppData\Local\openvr\openvrpaths.vrpath
 [Parent 15948, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1517826195825	geckodriver	INFO	geckodriver 0.19.1
+1517826195835	geckodriver	INFO	Listening on 127.0.0.1:56641
+1517826198911	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Htouhui\\AppData\\Local\\Temp\\rust_mozprofile.cO6LwdWPE9AH"
+1517826199599	Marionette	INFO	Enabled via --marionette
+1517826200984	Marionette	INFO	Listening on port 56650
+1517826202049	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Htouhui\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://sit.test.htouhui.com/site/themes/default/js/registAndLogin/login.processed.js, line 65: TypeError: list.data.defaultAdvertisingPopups is null
+JavaScript error: https://sit.test.htouhui.com/site/themes/default/js/indexAd.processed.js, line 19: TypeError: data.data.defaultAdvertisingPopups is null
+Unable to read VR Path Registry from C:\Users\Htouhui\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 15244, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
