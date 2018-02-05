@@ -10,15 +10,15 @@ class LoginCase(unittest.TestCase):
         self.dr.maximize_window()
 
 
-    #定义登录
-    def login(self,username,password):
+# 定义登录
+    def login(self, username, password):
         self.dr.get('https://sit.test.htouhui.com/memberLoginPage')
         self.dr.find_element_by_id('username').send_keys(username)
         self.dr.find_element_by_id('password').send_keys(password)
         self.dr.find_element_by_id('butt').click()
 
     def test_login_success(self):
-        self.login('h3168039689','123abc')
+        self.login('h3168039689', '123abc')
         sleep(3)
 
     def tearDown(self):
