@@ -19,7 +19,12 @@ class LoginCase(unittest.TestCase):
 
     def test_login_success(self):
         self.login('h3168039689', '123abc')
+        self.toward_to_pointer_url()
         sleep(3)
+
+    def toward_to_pointer_url(self):
+        self.dr.get('https://sit.test.htouhui.com/user/home.html#/reward/coupon')
+        self.dr.find_element_by_id('tab-cash').click()
 
     def tearDown(self):
         sleep(2)
