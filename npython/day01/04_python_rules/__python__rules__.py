@@ -5,9 +5,6 @@ class MyAnnotation:
     文档字符串的规范:一行以句号, 问号或惊叹号结尾的概述(或者该文档字符串单纯只有一行). 接着是一个空行. 接着是文档字符串剩下的部分,
     它应该与文档字符串的第一行的第一个引号对齐
     """
-    def __init__(self):
-        pass
-
     def __init__(self, name, age):
         self.name = name
         self.age = age
