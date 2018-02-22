@@ -13,10 +13,9 @@ class MyAnnotation:
         这个是为了方便对函数的注释规范有一个了解而做的样例。
         :return:
         """
-        pass
         print(self.__doc__)
 
 
 myAnnotation = MyAnnotation()
-
-myAnnotation.annotation()
+print(myAnnotation.annotation())
+print(myAnnotation.annotation.__doc__)
