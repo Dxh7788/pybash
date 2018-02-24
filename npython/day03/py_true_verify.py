@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+# not比非布尔操作符的优先级低，因此not a == b解释为not (a == b)，a == not b是一个语法错误
+
 
 class Truer(object):
 
