@@ -114,7 +114,8 @@ print(' ab\n c\n de \nfg\n kl'.split('\n'))
 print(' ab\n c\n de \nfg\n kl'.splitlines(True))
 # S.upper(self),转大写
 print(truer.upper())
-#
+# 在数值字符串的左边填充零至长度为width。符号前缀将正确处理。如果width小于或等于len(s)则返回原始字符串
+print('120'.zfill(10))
 
 
 class A(object):
